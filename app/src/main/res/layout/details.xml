@@ -20,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示风向 -->
     <TextView
@@ -27,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示风力 -->
     <TextView
@@ -34,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示湿度 -->
     <TextView
@@ -41,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示降水量 -->
     <TextView
@@ -48,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示大气压强 -->
     <TextView
@@ -55,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
     <!-- 显示能见度 -->
     <TextView
@@ -62,5 +68,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:textSize="24sp"
         android:textColor="#fff" />
 </LinearLayout>

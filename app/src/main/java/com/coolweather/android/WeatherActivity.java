@@ -92,7 +92,6 @@ public class WeatherActivity extends AppCompatActivity {
         windDirectionText=findViewById(R.id.wind_direction_text);
         windPowerText=findViewById(R.id.wind_power_text);
         humidityText=findViewById(R.id.humidity_text);
-        precipitationText=findViewById(R.id.humidity_text);
         precipitationText=findViewById(R.id.precipitation_text);
         pressureText=findViewById(R.id.pressure_text);
         visibilityText=findViewById(R.id.visibility_text);
@@ -213,13 +212,13 @@ public class WeatherActivity extends AppCompatActivity {
             aqiText.setText(weather.aqi.city.aqi);
             pm25Text.setText(weather.aqi.city.pm25);
         }
-        String windDegree ="风向角度:"+weather.now.wind_degree;
+        String windDegree ="风向角度:"+weather.now.wind_degree+"°";
         String windDirection="风向:"+weather.now.wind_direction;
-        String windPower="风力:"+weather.now.wind_power;
-        String humidity="湿度:"+weather.now.humidity;
-        String precipitation="降水量:"+weather.now.precipitation;
-        String pressure="大气压强:"+weather.now.pressure;
-        String visibility="能见度:"+weather.now.visibility;
+        String windPower="风力:"+weather.now.wind_power+"级";
+        String humidity="湿度:"+weather.now.humidity+"%RH";
+        String precipitation="降水量:"+weather.now.precipitation+"mm";
+        String pressure="大气压强:"+weather.now.pressure+"Pa";
+        String visibility="能见度:"+weather.now.visibility+"公里";
         windDegreeText.setText(windDegree);
         windDirectionText.setText(windDirection);
         windPowerText.setText(windPower);
